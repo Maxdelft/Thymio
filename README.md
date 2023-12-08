@@ -1,21 +1,31 @@
 # Thymio Project
-By: Iskandar Khemakhem, Erik Börve, Maximilian van Amerongen, Romane Belda
 
-Basics of Mobil Robotics, EPFL, 12-12-2021
+## Contributors
+- Iskandar Khemakhem
+- Erik Börve
+- Maximilian van Amerongen
+- Romane Belda
 
+## Course
+Basics of Mobile Robotics, EPFL, 12-12-2021
 
-## Abstract
-This report presents the choices we made to achive the project goal of navigating the differential drive robot, refered to as "Thymio", in an environment containing known and unknown obstacles. Furthermore, certain parts of the code will be highlighted to support the made design choices.
+## Project Overview
+This repository presents the outcomes of our project in the "Basics of Mobile Robotics" course at EPFL. Our team was tasked with programming a differential drive robot, Thymio, to navigate through an unknown environment. This endeavor encompassed gaining practical experience in several key areas:
 
-To achieve the goal, different image processing techniques have been applied to sense Thymio's enviornment and to build up a map. Different path planning techniques were applied to the map to come up with a path that navigates the robot from its start to its goal position.
-A Kalman Filter was designed to fuse different sensors and localize the Thymio on the map.
+- Computer Vision
+- Path Planning
+- Robot Localization
+- Robot Control, including obstacle avoidance
 
-Finally, simple motion control combined with local obstacle avoidance has been applied to achieve path following and to avoid unknown obstacles.
+The implementation was carried out using Python, with our scripts interfacing with a ROS-like system provided by the Thymio hardware.
 
-The resulting Motion control is displayed in the video below (significantly speed up). The corresponding video in real time and high resolution can be found in the "Video" folder.
+## Achievements
+We successfully programmed Thymio to autonomously navigate and adapt to its environment. This included:
+- Developing image processing techniques for environmental perception.
+- Applying path planning algorithms to navigate from start to goal.
+- Integrating a Kalman Filter for accurate localization.
+- Implementing motion control and obstacle avoidance strategies.
 
+A sped-up video showcasing Thymio's navigation can be viewed [here](https://user-images.githubusercontent.com/81572776/153708500-784dddef-6b9c-4efc-996d-09a122e975ed.mp4).
 
-https://user-images.githubusercontent.com/81572776/153708500-784dddef-6b9c-4efc-996d-09a122e975ed.mp4
-
-
-The project is described in more detail in the report.
+For a detailed exploration of our methods, design choices, and the technical aspects of our work, please refer to our comprehensive `Report.ipynb` file in this repository.
