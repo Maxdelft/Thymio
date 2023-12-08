@@ -30,7 +30,7 @@ For a detailed exploration of our methods, design choices, and the technical asp
 
 ## Video Demonstration
 Here is a sped-up video showcasing Thymio's navigation:
-
-https://user-images.githubusercontent.com/81572776/153708500-784dddef-6b9c-4efc-996d-09a122e975ed.mp4
+https://github.com/Maxdelft/Thymio/blob/main/ThymioVideo_edt_fast.mp4
+[](https://github.com/Maxdelft/Thymio/blob/main/ThymioVideo_edt_fast.mp4)
 
 For a detailed exploration of our methods, design choices, and the technical aspects of our work, please refer to our comprehensive `Report.ipynb` file in this repository.
